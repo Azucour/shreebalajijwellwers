@@ -1,11 +1,12 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
+  "installCommand": "npm install",
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "env": {
-    "VITE_API_URL": "https://shreebalajijwellwers.onrender.com"
+    "VITE_API_URL": "https://shreebalajijwellwers.onrender.com/api"
   }
 }
