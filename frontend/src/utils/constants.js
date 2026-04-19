@@ -5,8 +5,8 @@ export const SHOP = {
   phone: '+91 86527 61185',          // ← replace with actual number
   phoneTel: 'tel:+918652761185',     // ← replace with actual number
   email: 'sonu540mane@gmail.com',
-  address: '123, Jewellers Market, Main Road, Kalyān, Maharashtra 421301',
-  instagram: 'https://instagram.com/shreebalajijewellers',
+  address: 'LAKSHAMI PURA ROAD MADANAYAKAHALI BANGALORE',
+  instagram: 'https://www.instagram.com/shreebalajijewelllers040825?igsh=bnRkNXgydjYzYW11',
   mapEmbed:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.4!2d73.1!3d19.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zShree+Balaji+Jewellers!5e0!3m2!1sen!2sin!4v1234567890',
   timing: 'Mon–Sun: 10:00 AM – 9:00 PM',
