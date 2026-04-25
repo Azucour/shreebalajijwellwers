@@ -233,34 +233,35 @@ export default function ProductForm({ initial = {}, onSubmit, title, submitLabel
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
               <h2 className="font-semibold text-charcoal mb-4 text-sm uppercase tracking-wider">Status & Visibility</h2>
               <div className="space-y-4">
-                {[
-                  { key: 'isAvailable', label: 'Active / Available', desc: 'Show on storefront' },
-                  { key: 'featured', label: 'Featured', desc: 'Show in Featured section' },
-                  { key: 'trending', label: 'Trending', desc: 'Show in Trending section' },
-                ].map(({ key, label, desc }) => (
-                  <label key={key} className="flex items-start gap-3 cursor-pointer">
-                    <div className="relative mt-0.5">
-                      <input
-                        type="checkbox"
-                        checked={form[key]}
-                        onChange={(e) => set(key, e.target.checked)}
-                        className="sr-only"
+              {[
+                { key: 'isAvailable', label: 'Active / Available', desc: 'Show on storefront' },
+                { key: 'featured', label: 'Featured', desc: 'Show in Featured section' },
+                { key: 'trending', label: 'Trending', desc: 'Show in Trending section' },
+              ].map(({ key, label, desc }) => (
+                <div
+                  key={key}
+                  className="flex items-start gap-3 cursor-pointer"
+                  onClick={() => set(key, !form[key])}
+                >
+                  <div className="relative mt-0.5 shrink-0">
+                    <div
+                      className={`w-10 h-5 rounded-full transition-colors duration-200
+                        ${form[key] ? 'bg-gold-500' : 'bg-gray-200'}`}
+                    >
+                      <div className={`w-4 h-4 bg-white rounded-full shadow mt-0.5 transition-transform duration-200
+                        ${form[key] ? 'translate-x-5 ml-0.5' : 'translate-x-0.5'}`}
                       />
-                      <div
-                        onClick={() => set(key, !form[key])}
-                        className={`w-10 h-5 rounded-full transition-colors duration-200 cursor-pointer
-                          ${form[key] ? 'bg-gold-500' : 'bg-gray-200'}`}
-                      >
-                        <div className={`w-4 h-4 bg-white rounded-full shadow mt-0.5 transition-transform duration-200
-                          ${form[key] ? 'translate-x-5 ml-0.5' : 'translate-x-0.5'}`} />
-                      </div>
                     </div>
-                    <div>
-                      <p className="text-sm font-medium text-charcoal">{label}</p>
-                      <p className="text-xs text-gray-400">{desc}</p>
-                    </div>
-                  </label>
-                ))}
+                  </div>
+                  <div>
+                    <p className="text-sm font-medium text-charcoal">{label}</p>
+                    <p className="text-xs text-gray-400">{desc}</p>
+                    <p className="text-xs font-semibold mt-0.5 text-gold-600">
+                      {form[key] ? '✅ ON' : '⭕ OFF'}
+                    </p>
+                  </div>
+                </div>
+              ))}
               </div>
             </div>
 

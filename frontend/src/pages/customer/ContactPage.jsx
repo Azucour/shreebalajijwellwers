@@ -225,7 +225,7 @@ export default function ContactPage() {
               {/* Google Maps embed */}
               <div className="rounded-xl overflow-hidden shadow-sm border border-gray-100 h-56">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60280.09082506697!2d73.10527854863281!3d19.232610200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7955ffdb79893%3A0x8c62c527a87f6c84!2sKalyan%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.678764692!2d77.4581519!3d13.0584688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae250051c87995%3A0x84a5d6de745d2a4a!2sShree%20Balaji%20Jewellers!5e0!3m2!1sen!2sin!4v1714020000000!5m2!1sen!2sin"
                   className="w-full h-full border-0"
                   loading="lazy"
                   title="Shree Balaji Jewellers location"

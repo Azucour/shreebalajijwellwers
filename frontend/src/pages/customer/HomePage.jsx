@@ -43,11 +43,11 @@ const heroSlides = [
 const categoryTiles = [
   { label: 'Gold', emoji: '✨', image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=400&q=80' },
   { label: 'Silver', emoji: '🔘', image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&q=80' },
-  { label: 'Diamond', emoji: '💎', image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=400&q=80' },
-  { label: 'Rings', emoji: '💍', image: 'https://images.unsplash.com/photo-1586104237024-b5a4ae543124?w=400&q=80' },
+  { label: 'Diamond', emoji: '💎', image: 'https://images.unsplash.com/photo-1631897817977-a1005c199b36?w=800&q=80&auto=format&fit=crop' },
+  { label: 'Rings', emoji: '💍', image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80&auto=format&fit=crop' },
   { label: 'Necklaces', emoji: '📿', image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80' },
-  { label: 'Bangles', emoji: '🌀', image: 'https://images.unsplash.com/photo-1573408301185-9519eb5ec72f?w=400&q=80' },
-  { label: 'Earrings', emoji: '🌸', image: 'https://images.unsplash.com/photo-1630421905713-6a5c5d0e2c6e?w=400&q=80' },
+  { label: 'Bangles', emoji: '🌀', image: 'https://images.unsplash.com/photo-1611598935678-c88dca238fce?w=800&q=80&auto=format&fit=crop' },
+  { label: 'Earrings', emoji: '🌸', image: 'https://images.unsplash.com/photo-1671644730555-916aa8d8157f?w=400&q=80' },
   { label: 'Bridal Sets', emoji: '👰', image: 'https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=400&q=80' },
 ];
 
@@ -364,7 +364,7 @@ export default function HomePage() {
             <h2 className="section-title mb-6">About Shree Balaji Jewellers</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Shree Balaji Jewellers has been a trusted name in fine jewellery for over a decade.
-              Located in the heart of Kalyān, we bring you an unmatched collection of
+              Located in the heart of bangalore, we bring you an unmatched collection of
               handcrafted gold, silver, and diamond jewellery.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
